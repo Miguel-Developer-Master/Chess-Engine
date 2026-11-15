@@ -22,7 +22,7 @@ FetchContent_MakeAvailable(raylib)
 add_executable(ChessEngine
         src/main.cpp
         src/chess/LoadBoard.cpp
-        src/chess/LoadBoard.hpp
+        src/chess/DrawPiece.cpp
 )
 
 target_include_directories(ChessEngine PRIVATE
