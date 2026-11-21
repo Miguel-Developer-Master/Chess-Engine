@@ -23,6 +23,7 @@ add_executable(ChessEngine
         src/main.cpp
         src/chess/LoadBoard.cpp
         src/chess/DrawPiece.cpp
+        src/chess/MovePiece.cpp
 )
 
 target_include_directories(ChessEngine PRIVATE
